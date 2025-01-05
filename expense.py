@@ -1,6 +1,3 @@
-#columns like date, amount, category, payment method and maybe the description
-#set a budget and if went overbudgetb for a day or a week then send an alert msg.
-
 from logging import root
 import tkinter
 from tkinter import Tk
@@ -76,24 +73,3 @@ button=tk.Button(root, text="Add Expense", command=get_input)
 button.grid(row=4, column=0, columnspan=2, pady=10)
 
 root.mainloop()
-
-# entry1=tk.Entry(root, font=("Arial", 18), justify="right", borderwidth=2, relief="groove")
-# entry1.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
-
-# entry2=tk.Entry(root, font=("Arial", 18), justify="right", borderwidth=2, relief="groove")
-# entry2.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
-
-# entry3=tk.Entry(root, font=("Arial", 18), justify="right", borderwidth=2, relief="groove")
-# entry3.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
-
-# entry4=tk.Entry(root, font=("Arial", 18), justify="right", borderwidth=2, relief="groove")
-# entry4.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
-
-# def get_input():
-#     print("DD/MM/YY: ", entry1.get())
-    # print("Amount spent: ", entry2.get())
-    # print("Category: ", entry3.get())
-    # print("Payment method: ", entry4.get())
-
-# button=tk.Button(root, text="Done", command=get_input)
-# button.grid(pady=10)
